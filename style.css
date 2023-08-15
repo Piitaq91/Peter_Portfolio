@@ -176,6 +176,16 @@ ul li:hover ul.dropdown
     display: block;
 }
 
+.peter_img2
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
 @media only screen and (max-width: 750px) {
     .banner, .content, .logo, .sci {
       width: 100%;
@@ -188,5 +198,18 @@ ul li:hover ul.dropdown
         right: 0%;
         border-radius: 10px;
         box-shadow: 10px 10px 5px #ccc;
+        display: none;
     }
+
+    .peter_img2
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: inline;
+    }
+
+    
   }

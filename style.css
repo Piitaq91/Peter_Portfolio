@@ -151,27 +151,6 @@ header ul li a
     box-shadow: 10px 10px 5px #ccc;
 }
 
-.ux-glow
-{
-    position: absolute;
-    right: 15%;
-    top: 15%;
-    max-width: 13%;
-    border-radius: 10px;
-    box-shadow: 10px 10px 5px #ccc;
-}
-
-.ux-glow2
-{
-    position: absolute;
-    right: 15%;
-    bottom: 15%;
-    max-width: 20%;
-    border-radius: 10px;
-    box-shadow: 10px 10px 5px #ccc;
-}
-
-
 ul li ul.dropdown li
 {
     display: block;

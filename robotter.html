@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Peter's Portfolio</title>
+<link rel="icon" type="image/x-icon" href="favicon.png">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="robots_style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+</style>
+    
+<body>
+    <div class="menu">
+        <h1>Portfolio</h1>
+        <input type="checkbox" id="menu">
+        <label for="menu">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAMFBMVEUAAAD///////////////////////////////////////////////////////////87TQQwAAAAD3RSTlMAAQ8TFB4fSV6Ag4Wt6/uDY192AAAAQElEQVQoz2NgIAiEXVCAAsP5/yjgOwMq//8vdIHfDO9RBX4y9KEKXGOgCUCz5SqmOzBciuEXDN9ihAc1wGANZAAX+vf+Xu8gUwAAAABJRU5ErkJggg==" width="32" height="32" alt="">
+        </label>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+                <a href="spiludvikling.html">Spil & Læring</a>
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                </ul>
+            </li>
+            <li><a href="hjemmesider.html">Hjemmesider</a></li>
+            <li><a href="robotter.html">Robotter</a></li>
+            <li><a href="UI_UX_design.html">UI/UX Design</a></li>
+            <li><a href="om_mig.html">About</a></li>
+        </ul>
+    </div>
+
+    <section class="banner">
+        <div class="content">
+             
+            <h3>Plæneklipper med Arduino</h3>
+            <p>
+                Her vises en figur med en samlet hardware og software løsning hvor der skulle skabes en kopi af en rigtig plæneklipper, bare i en mindre version.
+                Den skulle have samme funktionaliteter som dem der kører rundt i haven og sørge for, at slå al græsset og undgå at køre ind i "sten"
+            </p>
+             <br><br><br>
+             <h3>Samlet prototype:</h3>
+             <p>
+                Her vises robotten i aktion. Den tynde ledning der omringer robotten er den ydre grænse for den simulerede græsplæne. Robotten er udstyret med sensorer der kan opfange et signal der kommer fra ledningen og dreje væk fra kanten.
+             </p>
+         </div>
+ 
+         <img src="plæneklipper.jpg" class="plæneklipper1">
+         <img src="plæneklipper2.jpg" class="plæneklipper2">
+     </section>
+
+    <section class="banner">
+        <div class="content">
+             
+             <h3>Øen - Arduino + Unity3D</h3>
+             <p>
+                Dette projekt omhandler "Øen" som er en lille hurtig prototype af en interaktiv ø. 
+             </p>
+             <p>
+                Ved hjælp af sensorer kan man manipulere henholdvis vind, lys og rystelser på øen.
+                Pust i en mikrofon resulterer i blæsevejr, manglende lys i en LDR-sensor forårsager mørke på øen og når rystelser bliver opfanget rystes hele øen.
+             </p>
+             <br><br><br>
+             <h3>Se en kort video:</h3>
+             <p>
+                Denne prototype var tiltænkt til at være en lille del af en udstilling omhandlende natur og katastrofer. 
+                Hertil ville der blandt andet være plancher og informationer omkring jordskælv, lys og vind og hvad der forårsager dette.
+             </p>
+         </div>
+ 
+         <iframe width=100% height=350px src="island-vid.mp4" frameborder="1" allowfullscreen></iframe>
+        </iframe>     
+    </section>
+    
+</body>
+</html>

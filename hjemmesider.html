@@ -20,13 +20,7 @@
         </label>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li>
-                <a href="spiludvikling.html">Spil & Læring</a>
-                <ul>
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                </ul>
-            </li>
+            <li><a href="spiludvikling.html">Spil & Læring</a></li>
             <li><a href="hjemmesider.html">Hjemmesider</a></li>
             <li><a href="robotter.html">Robotter</a></li>
             <li><a href="UI_UX_design.html">UI/UX Design</a></li>
@@ -35,27 +29,36 @@
     </div>
 
     <section class="banner">
-    
         <div class="content">
-            <h3>Hej!</h3>
-            <p>Jeg hedder Peter Obling og jeg er 32 år gammel. <br>
-            Jeg er uddannet civilingeniør i Spiludvikling & Læringsteknologi (cand. polyt.) fra Syddansk Universitet pr. Juli 2023. </p>
-    
-            <br><br>
-            <h3>Uddannelse indenfor:</h3>
-            <p>Softwareprogrammering og 
-                hardwareudvikling med særlig fokus på design, -udvikling af produkter der entent
-                har noget med læring eller oplevelse at gøre. 
-                Hertil har jeg god erfaring med kundekontakt da jeg har haft adskillige samarbejde med børnehave, skoler og flere firmaer.  
+            <h3>Formål: </h3>
+            <p>Denne hjemmeside skulle forestille sig at være et forum hvor man kan dele sine billeder. 
+                Når log-in informationerne er indtastet, så tjekkes de op imod de eksisterende profiler i en database og man bliver 
+                logget ind hvis ens bruger findes.
             </p>
-    
-            <p>Det betyder 
-                at jeg udover programmering også benytter mig af user experience design, da udvikling
-                af produkt ikke kun er software men også en forståelse af modtageren af produktet, 
-                således produktet målrettes den rigtige målgruppe.</p>
+            <br>
+            <h3>Implementeringer: </h3>
+            <p>
+                Log-in sikkerhed, registrering af ny bruger, base64 lagring af billeder i database, 
+                brug af API'er + AJAX call, implementering for at undgå cross-site-scripting (xss) 
+                samt SQL-Injection, password sikring ved at hashe fortrolig information inden lagring i databasen + brug af regex til username / password og 
+                til sidst tjek af billede mimetype om det er jpeg.
+            </p>
         </div>
-    
-        <img src="peter.jpg" class="peter_img">
+        <iframe width=100% height=350px src="hjemmeside_base64_img_storage.mp4" frameborder="1" sandbox allowfullscreen></iframe>
+    </iframe>
+    </section>
+
+    <section class="banner">
+        <div class="content">
+            <h3>Formål: </h3>
+            <p>Denne hjemmeside viser et bud på et enkelt chatsystem med brug af Node.js og Socket.IO.
+                Her skal man "logge" ind ved at indtaste en brugernavn og herefter kan man skrive med hinanden
+                i det tildelte chatrum.
+            </p>            </p>
+            <br>
+        </div>
+        <iframe width=100% height=350px src="web2_node_socketsIOny.mp4" frameborder="1" sandbox allowfullscreen></iframe>
+    </iframe>
     </section>
 
     <section class="banner">

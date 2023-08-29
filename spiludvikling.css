@@ -5,17 +5,23 @@
     top: 15%;
     max-width: 25%;
     border-radius: 10px;
-    box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 8px 8px 5px #ccc;
+    padding: 2px;
+    border: 1px solid #021a40;
+    background-color:lightgray; 
 }
 
 .kemi2
 {
     position: absolute;
     right: 10%;
-    bottom: 15%;
+    bottom: 11%;
     max-width: 25%;
     border-radius: 10px;
-    box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 8px 8px 5px #ccc;
+    padding: 2px;
+    border: 1px solid #021a40;
+    background-color:lightgray; 
 }
 
 .stl1
@@ -25,7 +31,10 @@
     top: 35%;
     max-width: 35%;
     border-radius: 10px;
-    box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 8px 8px 5px #ccc;
+    padding: 2px;
+    border: 1px solid #021a40;
+    background-color:lightgray; 
 }
 
 .blockly
@@ -35,7 +44,10 @@
     top: 35%;
     max-width: 35%;
     border-radius: 10px;
-    box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 8px 8px 5px #ccc;
+    padding: 2px;
+    border: 1px solid #021a40;
+    background-color:lightgray; 
 }
 
 .mario1
@@ -45,7 +57,10 @@
     top: 15%;
     max-width: 25%;
     border-radius: 10px;
-    box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 8px 8px 5px #ccc;
+    padding: 2px;
+    border: 1px solid #021a40;
+    background-color:lightgray; 
 }
 
 .mario2
@@ -55,5 +70,8 @@
     bottom: 15%;
     max-width: 25%;
     border-radius: 10px;
-    box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 8px 8px 5px #ccc;
+    padding: 2px;
+    border: 1px solid #021a40;
+    background-color:lightgray; 
 }

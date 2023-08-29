@@ -5,17 +5,23 @@
     top: 15%;
     max-width: 13%;
     border-radius: 10px;
-    box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 8px 8px 5px #ccc;
+    padding: 2px;
+    border: 1px solid #021a40;
+    background-color:lightgray; 
 }
 
 .plæneklipper2
 {
     position: absolute;
     right: 10%;
-    bottom: 10%;
+    bottom: 8%;
     max-width: 25%;
     border-radius: 10px;
-    box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 8px 8px 5px #ccc;
+    padding: 2px;
+    border: 1px solid #021a40;
+    background-color:lightgray; 
 }
 
 .spycar
@@ -25,7 +31,10 @@
     top: 20%;
     max-width: 35%;
     border-radius: 10px;
-    box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 8px 8px 5px #ccc;
+    padding: 2px;
+    border: 1px solid #021a40;
+    background-color:lightgray; 
 }
 
 .spycar3
@@ -35,5 +44,8 @@
     bottom: 5%;
     max-width: 17%;
     border-radius: 10px;
-    box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 8px 8px 5px #ccc;
+    padding: 2px;
+    border: 1px solid #021a40;
+    background-color:lightgray; 
 }

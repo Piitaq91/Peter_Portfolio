@@ -148,7 +148,10 @@ header ul li a
     right: 10%;
     max-width: 20%;
     border-radius: 10px;
-    box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 8px 8px 5px #ccc;
+    padding: 2px;
+    border: 1px solid #021a40;
+    background-color:lightgray; 
 }
 
 ul li ul.dropdown li
@@ -313,7 +316,7 @@ ul li:hover ul.dropdown
     	display: block;
         float: right;
         text-align: center;
-        width: 40px;
+        width: 75px;
         border-left: 1px solid #2b3543;
         padding: 15px 25px 15px 25px;
         opacity: 0.8;

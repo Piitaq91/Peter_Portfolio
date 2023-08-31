@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <title>Showcase of Fruits - Responsive Layout</title>
+    <link rel="stylesheet" href="beverages.css">
+</head>
+
+<body>
+    <section>
+        <div class="bg"></div>
+        <header>
+            <a href="#" class="logo1">Fruits and Vegetables</a>
+            <div class="toggle"></div> 
+            <ul class="navigation1">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>Remember Your Daily Greens!</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed voluptate voluptas 
+                    odit, veniam consequatur amet, atque recusandae saepe sunt ab eligendi natus. 
+                    Expedita corrupti officiis maxime minus quidem autem deserunt.</p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div class="imgBox">
+                <img src="apple.jpeg" class="fruits">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li data-text="Apples" class="active"><img src="apple.jpeg" onclick="imgSlider('apple.jpeg'); changeBgColor('#fc4a55')"></li>
+            <li data-text="Mangos"><img src="mango.jpeg" onclick="imgSlider('mango.jpeg'); changeBgColor('#FE7436')"></li>
+            <li data-text="Watermelons"><img src="watermelon.jpeg" onclick="imgSlider('watermelon.jpeg'); changeBgColor('#00A651')"></li>
+            <li data-text="Dragonfruit"><img src="dragon.jpeg" onclick="imgSlider('dragon.jpeg'); changeBgColor('#ffc0cb')"></li>
+        </ul>
+    </section>
+
+    <script>
+        //change image onclick of fruits
+        function imgSlider(anything){
+            document.querySelector('.fruits').src = anything;
+        }
+
+        //change background color
+        function changeBgColor(color){
+            const bg = document.querySelector('.bg');
+            bg.style.background = color;
+        }
+
+        //active class selected in thumb
+        let el = document.querySelectorAll('.thumb li');
+        for (let i=0; i < el.length; i++){
+            el[i].onclick = function(){
+                var c = 0;
+                while (c < el.length){
+                    el[c++].className = 'check';
+                }
+                el[i].className ='check active';
+            }
+        }
+    </script>
+</body>
+
+</html>

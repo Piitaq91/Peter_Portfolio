@@ -189,6 +189,166 @@ ul li:hover ul.dropdown
         display: none;
     }
 
+.kemi3
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+.kemi4
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+.wacca-vid2
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+.stl2
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+.blockly2
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+.website2
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+.forum2
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+.node2
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+.spycar2
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+.spycar4
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+.plæneklipper3
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+.plæneklipper4
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+.island2
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+.ux-glow3
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+.ux-glow4
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+.AR2
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
 @media only screen and (max-width: 750px) {
     .banner, .content, .logo, .sci {
       width: 100%;
@@ -207,7 +367,327 @@ ul li:hover ul.dropdown
     .peter_img2
     {
         position: relative;
+        max-width: 100%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: inline;
+    }
+
+    .kemi1
+    {
+        position: relative;
         max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+    .kemi3
+    {
+        position: relative;
+        max-width: 100%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: inline;
+    }
+
+    .kemi2
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+    .kemi4
+    {
+        position: relative;
+        max-width: 100%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: inline;
+    }
+
+    .wacca-vid
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+    .wacca-vid2
+    {
+        position: relative;
+        max-width: 100%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: inline;
+    }
+
+    .stl1
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+    .stl2
+    {
+        position: relative;
+        max-width: 100%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: inline;
+    }
+    
+    .blockly
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+    .blockly2
+    {
+        position: relative;
+        max-width: 100%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: inline;
+    }
+
+    .website1
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+    .website2
+    {
+        position: relative;
+        max-width: 100%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: inline;
+    }
+
+    .forum1
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+    .forum2
+    {
+        position: relative;
+        max-width: 100%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: inline;
+    }
+
+    .node1
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+    .node2
+    {
+        position: relative;
+        max-width: 100%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: inline;
+    }
+
+    .spycar
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+    .spycar2
+    {
+        position: relative;
+        max-width: 100%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: inline;
+    }
+
+    .spycar3
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+    .spycar4
+    {
+        position: relative;
+        max-width: 100%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: inline;
+    }
+
+    .plæneklipper1
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+    .plæneklipper3
+    {
+        position: relative;
+        max-width: 100%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: inline;
+    }
+
+    .plæneklipper2
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+    .plæneklipper4
+    {
+        position: relative;
+        max-width: 100%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: inline;
+    }
+
+    .island1
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+    .island2
+    {
+        position: relative;
+        max-width: 100%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: inline;
+    }
+
+    .ux-glow
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+    .ux-glow3
+    {
+        position: relative;
+        max-width: 100%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: inline;
+    }
+
+    .ux-glow2
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+    .ux-glow4
+    {
+        position: relative;
+        max-width: 100%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: inline;
+    }
+
+    .AR1
+    {
+        position: relative;
+        max-width: 30%;
+        right: 0%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #ccc;
+        display: none;
+    }
+
+    .AR2
+    {
+        position: relative;
+        max-width: 100%;
         right: 0%;
         border-radius: 10px;
         box-shadow: 10px 10px 5px #ccc;
@@ -345,4 +825,16 @@ ul li:hover ul.dropdown
     .menu a {
     	background-color: #29323d;
     }
+}
+
+.website1
+{
+    position: absolute;
+    right: 2%;
+    max-width: 35%;
+    border-radius: 10px;
+    box-shadow: 8px 8px 5px #ccc;
+    padding: 2px;
+    border: 1px solid #021a40;
+    background-color:lightgray; 
 }

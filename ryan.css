@@ -315,6 +315,33 @@ header .navigation1 li a:hover
         display: none;
     }
 
+    .row .column
+    {
+        width: 100%;
+    }
+
+    .content .textBox2
+{
+    position: absolute;
+    top: -10%;
+    font-size: 3em;
+    color: #fff;
+    max-width: 600px;
+}
+
+    .bg
+    {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('ryan_bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: contain;
+    }
+
     header
     {
         padding: 20px;

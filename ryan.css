@@ -59,7 +59,8 @@ footer
 {
     text-align: center;
     background-color: #01172b;
-}
+    bottom: 10%;
+} 
 
 .bg::before
 {
@@ -138,7 +139,7 @@ header .navigation1 li a:hover
 
 .offer_pic
 {
-    
+    border-radius: 15%;
 }
 
 .offer_explanation
@@ -344,12 +345,12 @@ header .navigation1 li a:hover
 
 .offer_explanation {
     position: absolute;
-    bottom: -17%;
+    bottom: -15%;
     font-size: 0.7em;
     color: #fff;
     max-width: 600px;
 }
-
+ 
     .bg
     {
     position: absolute;

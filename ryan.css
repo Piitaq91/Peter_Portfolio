@@ -134,23 +134,26 @@ header .navigation1 li a:hover
     width: 40%;
 }
 
+
+
 .offer_pic
 {
-    width:  200px;
-    height: 200px;
-    border-radius: 30%;
-    padding: 20px;
+    
 }
 
 .offer_explanation
 {
     position: absolute;
-    bottom: -60%;
+    bottom: -80%;
     font-size: 1em;
     color: #fff;
     max-width: 600px;
 }
 
+.desc
+{
+    color: #fff;
+}
 
 .top
 {
@@ -342,7 +345,7 @@ header .navigation1 li a:hover
 .offer_explanation {
     position: absolute;
     bottom: -17%;
-    font-size: 1em;
+    font-size: 0.7em;
     color: #fff;
     max-width: 600px;
 }
